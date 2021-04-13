@@ -4,6 +4,8 @@ const Color white  = Color.fromRGBO(233, 235, 235, 1);
 
 const Color color0  = Color.fromRGBO(33, 32, 44, 1);
 const Color color1  = Color.fromRGBO(42, 39, 55, 1);
+const Color color2  = Color.fromRGBO(44, 110, 203, 1);
+const Color color3  = Color.fromRGBO(96, 97, 210, 1);
 
 const TextStyle s1 =TextStyle(
   color: white,

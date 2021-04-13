@@ -37,7 +37,6 @@ class _NavigateProjectPageState extends State<NavigateProjectPage> with SingleTi
               isScrollable:true,
               tabs: [
                 Container(
-
                   margin: EdgeInsets.only(top: 5,bottom: 5),
                   padding: EdgeInsets.all(10),
                   decoration: BoxDecoration(
@@ -58,7 +57,6 @@ class _NavigateProjectPageState extends State<NavigateProjectPage> with SingleTi
                   ),
                 ),
                 Container(
-
                   margin: EdgeInsets.only(top: 5,bottom: 5),
                   padding: EdgeInsets.all(10),
                   decoration: BoxDecoration(
@@ -103,8 +101,7 @@ class _NavigateProjectPageState extends State<NavigateProjectPage> with SingleTi
             ),
           ),
           new Container(
-            color: Colors.red,
-            height: height*0.9,
+            height: height*0.85,
             child: new TabBarView(
               controller: _controller,
               children: <Widget>[

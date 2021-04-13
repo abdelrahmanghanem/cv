@@ -45,9 +45,7 @@ class _MobiscoreProjectState extends State<MobiscoreProject> {
             CarouselSlider(
               items: imageSliders,
               options: CarouselOptions(
-
                   viewportFraction: 0.9,
-
                   height:MediaQuery.of(context).size.height*0.65,
                   autoPlay: true,
                   enlargeCenterPage: true,

@@ -48,11 +48,8 @@ class _ExperienceCardWidgetState extends State<ExperienceCardWidget> {
                         fontWeight: FontWeight.w500
                     ),),
                   ),
-
-
                 ],
               ),
-
             ],
           ),
         ),

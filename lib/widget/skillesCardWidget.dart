@@ -42,7 +42,7 @@ class _SkillsCardWidgetState extends State<SkillsCardWidget> {
                 linearStrokeCap: LinearStrokeCap.roundAll,
 
                 //  backgroundColor:white,
-                progressColor: Color.fromRGBO(96, 97, 210, 1),
+                progressColor: color3,
                 trailing:Container(
                     margin: EdgeInsets.only(left: 10),
                     child: Text(widget.item["subtitle"],style: skillStyle1,)),

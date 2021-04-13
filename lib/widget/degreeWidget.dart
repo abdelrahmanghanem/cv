@@ -20,7 +20,7 @@ class _DegreeWidgetState extends State<DegreeWidget> {
             Container(
               margin: EdgeInsets.only(left: 20,top: 10),
               width: 30,height: 30,
-              child: Image.asset(widget.item["image"],color: Color.fromRGBO(44, 110, 203, 1),),
+              child: Image.asset(widget.item["image"],color: color2),
             ),
             Container(
               margin: EdgeInsets.only(left: 20,top: 20),
@@ -33,11 +33,11 @@ class _DegreeWidgetState extends State<DegreeWidget> {
           children: [
             Container(
               margin: EdgeInsets.only(left: 32,top: 10),
-              width: 2,height: height*0.15,
+              width: 2,
+              height: height*0.15,
               decoration: BoxDecoration(
-              color: Color.fromRGBO(44, 110, 203, 1)
+              color: color2
               ),
-
             ),
             Container(
               margin: EdgeInsets.only(left: 35,top: 10),

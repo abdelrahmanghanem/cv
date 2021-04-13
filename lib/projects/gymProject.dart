@@ -45,9 +45,7 @@ class _GymProjectState extends State<GymProject> {
             CarouselSlider(
               items: imageSliders,
               options: CarouselOptions(
-
                   viewportFraction: 0.9,
-
                   height:MediaQuery.of(context).size.height*0.74,
                   autoPlay: true,
                   enlargeCenterPage: true,
