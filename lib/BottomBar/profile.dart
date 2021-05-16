@@ -100,80 +100,87 @@ class _ProfilePageState extends State<ProfilePage> {
                         ),
                       ),
                       SizedBox(height: height*0.03,),
-                      Container(
-                        margin: EdgeInsets.only(left: 20,top: 10),
-                        decoration:  BoxDecoration(
-                          borderRadius: BorderRadius.circular(15),
-                        ),
-                        child: Row(
-                          children: [
-                            Container(
-                              width: 18,
-                              height: 18,
-                              child: Image.asset("assets/icon/calendar.png",),),
-                            Container(
-                                padding: EdgeInsets.only(left: 10),
-                                child: Text("March 10 ,1996",style:s1,)
-                            )
-                          ],
-                        ),
-                      ),
-                      Container(
-                        margin: EdgeInsets.only(left: 20,top: 15),
-                        decoration:  BoxDecoration(
-                          borderRadius: BorderRadius.circular(15),
-                        ),
-                        child: Row(
-                          children: [
-                            Container(
-                              width: 18,
-                              height: 18,
-                              child: Image.asset("assets/icon/location.png",),),
-                            Container(
-                                padding: EdgeInsets.only(left: 10),
-                                child: Text("New Cairo, Cairo",style:s1,)
-                            )
-                          ],
-                        ),
-                      ),
-                      Container(
-                        margin: EdgeInsets.only(top: 15),
-                        decoration:  BoxDecoration(
-                          borderRadius: BorderRadius.circular(15),
-                        ),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                           Container(
-                              width: 18,
-                              height: 18,
-                              child: Image.asset("assets/icon/mail.png",),),
-                            Container(
-                                padding: EdgeInsets.only(left: 10),
-                                child: SelectableText("abdelrahman.ghanem.atya@gmail.com",style:TextStyle(fontSize: 15,color: white))
-                            )
-                          ],
-                        ),
-                      ),
-                      Container(
-                        margin: EdgeInsets.only(left: 20,top: 15),
-                        decoration:  BoxDecoration(
-                          borderRadius: BorderRadius.circular(15),
-                        ),
-                        child: Row(
-                          children: [
-                            Container(
-                              width: 18,
-                              height: 18,
-                              child: Image.asset("assets/icon/phone-call.png",),),
-                            Container(
-                                padding: EdgeInsets.only(left: 10),
-                                child: SelectableText("01011118203",style: s1,
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+
+                        children: [
+                          Container(
+                            margin: EdgeInsets.only(left: 20,top: 10),
+                            decoration:  BoxDecoration(
+                              borderRadius: BorderRadius.circular(15),
+                            ),
+                            child: Row(
+                              children: [
+                                Container(
+                                  width: 18,
+                                  height: 18,
+                                  child: Image.asset("assets/icon/calendar.png",),),
+                                Container(
+                                    padding: EdgeInsets.only(left: 10),
+                                    child: Text("March 10 ,1996",style:s1,)
                                 )
-                            )
-                          ],
-                        ),
-                      ),
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(left: 20,top: 15),
+                            decoration:  BoxDecoration(
+                              borderRadius: BorderRadius.circular(15),
+                            ),
+                            child: Row(
+                              children: [
+                                Container(
+                                  width: 18,
+                                  height: 18,
+                                  child: Image.asset("assets/icon/location.png",),),
+                                Container(
+                                    padding: EdgeInsets.only(left: 10),
+                                    child: Text("New Cairo, Cairo",style:s1,)
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(left: 20,top: 15),
+
+                            decoration:  BoxDecoration(
+                              borderRadius: BorderRadius.circular(15),
+                            ),
+                            child: Row(
+                              children: [
+                                Container(
+                                  width: 18,
+                                  height: 18,
+                                  child: Image.asset("assets/icon/mail.png",),),
+                                Container(
+                                    padding: EdgeInsets.only(left: 10),
+                                    child: SelectableText("abdelrahman.ghanem.atya@gmail.com",style:TextStyle(fontSize: 15,color: white))
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(left: 20,top: 15),
+                            decoration:  BoxDecoration(
+                              borderRadius: BorderRadius.circular(15),
+                            ),
+                            child: Row(
+                              children: [
+                                Container(
+                                  width: 18,
+                                  height: 18,
+                                  child: Image.asset("assets/icon/phone-call.png",),),
+                                Container(
+                                    padding: EdgeInsets.only(left: 10),
+                                    child: SelectableText("01011118203",style: s1,
+                                    )
+                                )
+                              ],
+                            ),
+                          ),
+                        ],
+                      )
+
                     ],
                   ),
                 ),
